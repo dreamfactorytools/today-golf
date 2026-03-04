@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>우즈 없는 세미놀, 그래도 돌아가는 골프판</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Noto Sans KR', 'Malgun Gothic', sans-serif; background: #f5f5f5; color: #333; }
+  .container { max-width: 720px; margin: 0 auto; background: #fff; }
+
+  /* 썸네일 */
+  .hero { position: relative; width: 100%; aspect-ratio: 16/9; background: #1a3c2a; overflow: hidden; }
+  .hero img { width: 100%; height: 100%; object-fit: cover; }
+  .hero-overlay { position: absolute; bottom: 0; left: 0; right: 0; padding: 32px 24px 24px; background: linear-gradient(transparent, rgba(0,0,0,0.7)); }
+  .hero-overlay .date { font-size: 13px; color: rgba(255,255,255,0.7); margin-bottom: 6px; }
+  .hero-overlay h1 { font-size: 26px; font-weight: 800; color: #fff; line-height: 1.4; }
+
+  /* 리드 */
+  .lead { padding: 28px 24px 20px; font-size: 17px; line-height: 1.8; color: #444; border-bottom: 1px solid #eee; }
+
+  /* 섹션 */
+  .section { padding: 0 24px 32px; }
+  .section-img { width: 100%; aspect-ratio: 16/9; background: #e8e8e8; border-radius: 8px; overflow: hidden; margin-top: 28px; margin-bottom: 20px; }
+  .section-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .section-img .placeholder { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; color: #aaa; font-size: 14px; background: #f0f0f0; }
+  .section h2 { font-size: 20px; font-weight: 700; color: #1a1a1a; margin-bottom: 14px; padding-bottom: 10px; border-bottom: 2px solid #2d6b45; display: inline-block; }
+  .section p { font-size: 15.5px; line-height: 1.85; color: #444; margin-bottom: 12px; }
+  .section p:last-child { margin-bottom: 0; }
+
+  /* 구분선 */
+  .divider { height: 1px; background: #eee; margin: 0 24px; }
+
+  /* 마무리 */
+  .closing { padding: 28px 24px 20px; background: #f9fafb; border-top: 1px solid #eee; }
+  .closing h2 { font-size: 18px; font-weight: 700; color: #1a1a1a; margin-bottom: 14px; }
+  .closing p { font-size: 15px; line-height: 1.85; color: #555; margin-bottom: 10px; }
+
+  /* 푸터 */
+  .footer { padding: 20px 24px 32px; background: #f9fafb; text-align: center; }
+  .footer .blog-name { font-size: 14px; font-weight: 700; color: #2d6b45; letter-spacing: 2px; }
+  .footer .blog-sub { font-size: 12px; color: #999; margin-top: 4px; }
+
+  /* 이미지 프롬프트 툴팁 */
+  .img-prompt { font-size: 11px; color: #999; background: #f7f7f7; padding: 8px 12px; border-radius: 4px; margin-top: -12px; margin-bottom: 16px; word-break: break-all; }
+  .img-prompt::before { content: "AI \C774\BBF8\C9C0 \D504\B86C\D504\D2B8: "; font-weight: 600; color: #777; }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- 썸네일 영역 -->
+  <div class="hero">
+    <!-- 이미지를 생성한 후 src에 넣으세요 -->
+    <img src="" alt="오늘의 골프 썸네일" onerror="this.style.display='none'">
+    <div class="hero-overlay">
+      <div class="date">2026. 03. 04 | 오늘의 골프</div>
+      <h1>우즈 없는 세미놀,<br>그래도 돌아가는 골프판</h1>
+    </div>
+  </div>
+  <div class="img-prompt">A dramatic wide-angle photo of an empty tee box at a prestigious golf course at dawn, morning mist rolling across the fairway, a single golf ball sitting on the tee with no player in sight, golden hour lighting, cinematic composition</div>
+
+  <!-- 리드 -->
+  <div class="lead">
+    타이거 우즈가 세미놀 프로-멤버에 나타나지 않았다. 그 한 장면이 이번 주 골프판의 온도를 알려준다.
+  </div>
+
+  <!-- 섹션 1: 우즈 -->
+  <div class="section">
+    <div class="section-img">
+      <img src="" alt="세미놀 골프클럽" onerror="this.parentElement.innerHTML='<div class=placeholder>이미지를 넣어주세요</div>'">
+    </div>
+    <div class="img-prompt">Close-up of an empty chair at a VIP golf tournament spectator area, pristine golf course blurred in background, sunlight casting long shadows, melancholic mood, photojournalistic style, shallow depth of field</div>
+    <h2>우즈, 세미놀 불참 — 마스터스 물음표 커진다</h2>
+    <p>월요일, 플로리다 주노비치 세미놀 골프클럽. 넬리 코르다, 로리 맥킬로이, 브룩스 켑카가 초청 베스트볼 대회를 치렀다. 우즈는 이 자리에 없었다.</p>
+    <p>지난달 우즈는 "마스터스를 배제하지 않겠다"고 말했다. 풀샷까지 가능한 단계라고도 했다. 하지만 비경쟁 이벤트에도 나서지 못했다는 건 몸이 아직 준비되지 않았다는 뜻이다.</p>
+    <p>마스터스 개막은 4월 9일. 남은 시간은 다섯 주. 50세의 우즈에게 그 시간이 충분할지는 본인만 안다.</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- 섹션 2: 아놀드 파머 -->
+  <div class="section">
+    <div class="section-img">
+      <img src="" alt="베이힐 클럽" onerror="this.parentElement.innerHTML='<div class=placeholder>이미지를 넣어주세요</div>'">
+    </div>
+    <div class="img-prompt">Aerial view of Bay Hill Club golf course in Orlando Florida, lush green fairways surrounded by lakes, bright sunny day, tournament flags waving, PGA Tour event atmosphere, vibrant colors</div>
+    <h2>아놀드 파머 인비테이셔널, 내일 티오프</h2>
+    <p>베이힐이 다시 열린다. 3월 5일부터 8일까지, 올랜도 베이힐 클럽 앤 로지.</p>
+    <p>총상금 2000만 달러짜리 시그니처 이벤트. 스코티 셰플러가 세계 랭킹 1위 자격으로 필드를 이끈다. 크리스 고테럽은 올 시즌에만 벌써 2승을 올린 상태로 세계 6위까지 치고 올라왔다. 콜린 모리카와는 지난달 페블비치 우승 기세를 이어간다.</p>
+    <p>마스터스 한 달 전, 여기서의 성적이 오거스타 전망을 결정한다.</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- 섹션 3: 푸에르토리코 -->
+  <div class="section">
+    <div class="section-img">
+      <img src="" alt="그랜드리저브 골프클럽" onerror="this.parentElement.innerHTML='<div class=placeholder>이미지를 넣어주세요</div>'">
+    </div>
+    <div class="img-prompt">Stunning tropical golf course on a beachfront peninsula, turquoise Caribbean ocean in background, palm trees lining the fairway, bright tropical sunlight, travel photography style</div>
+    <h2>푸에르토리코 오픈, 같은 주에 동시 개최</h2>
+    <p>같은 기간, 리오그란데 그랜드리저브 골프클럽에서 푸에르토리코 오픈이 열린다. PGA 투어 2026 시즌 첫 번째 어디셔널 이벤트(시그니처 이벤트 외 일반 대회)다.</p>
+    <p>우승자에게는 페덱스컵 300포인트와 2년 투어 자격, 그리고 다음 주 더 플레이어스 챔피언십 출전권이 돌아간다. 시그니처 이벤트에 못 들어간 선수들에게는 시즌 전환점이 될 수 있는 대회다.</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- 섹션 4: KLPGA -->
+  <div class="section">
+    <div class="section-img">
+      <img src="" alt="KLPGA 대회" onerror="this.parentElement.innerHTML='<div class=placeholder>이미지를 넣어주세요</div>'">
+    </div>
+    <div class="img-prompt">Korean female professional golfer celebrating on the green, fist pump victory pose, large gallery crowd in background, Korean tournament banners visible, dynamic sports photography</div>
+    <h2>현대백화점-KLPGA, 공동 마케팅 MOU 체결</h2>
+    <p>국내에서도 움직임이 있다. 현대백화점이 KLPGA와 2026 시즌 공동 마케팅 업무협약을 맺었다.</p>
+    <p>올해 KLPGA는 31개 대회, 총상금 347억 원으로 역대 최대 규모를 운영한다. 유통 대기업이 여자 골프에 직접 손을 잡았다는 건 투어의 상업적 가치가 그만큼 올라갔다는 신호다.</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- 마무리 -->
+  <div class="closing">
+    <h2>이번 주는 시험 기간</h2>
+    <p>베이힐에서 셰플러와 고테럽이 맞붙는다. 푸에르토리코에서는 누군가의 시즌이 바뀔 수 있다. 우즈의 시계는 멈춘 채다.</p>
+    <p>내일부터 시작되는 두 대회 결과를 다음 편에서 정리한다. 베이힐 1라운드 티타임은 PGA 투어 공식 앱에서 확인할 수 있다.</p>
+  </div>
+
+  <!-- 푸터 -->
+  <div class="footer">
+    <div class="blog-name">오늘의 골프</div>
+    <div class="blog-sub">매일 골프 뉴스를 한눈에</div>
+  </div>
+
+</div>
+
+</body>
+</html>
